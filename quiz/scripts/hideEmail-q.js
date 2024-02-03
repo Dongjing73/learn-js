@@ -7,5 +7,6 @@ window.onload = function hideEmail() {
     list.innerHTML = '';
     for (const email of emails) {
         // complete the loop
+        let validEmail = email.match(/$northeastern.edu/)
     }
 }
